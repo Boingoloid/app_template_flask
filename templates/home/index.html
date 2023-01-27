@@ -1,0 +1,13 @@
+{% extends "/base/base.html" %}
+ 
+{% block title %} 
+    Hello page | {{ super() }}
+{% endblock %}
+
+{% block content %} 
+    <h1>Hello from {{name}} !</h1>
+{% endblock %}
+</html>
+
+ <!-- if in templates folder it will automatically be renderred as a view. -->
+
